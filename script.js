@@ -13,13 +13,13 @@
 
 
 
-// //  primitive data types
-// //  primitive data types
+//   primitive data types
+//  primitive data types
  
 // // string '' ""
 // let kezaya = "today is kezaya's birthday"
 // console.log(kezaya);
-// // number 
+// number 
 
 // let mynum = 63
 // console.log(mynum);
@@ -156,10 +156,11 @@
 // const checkAyo = fee && textbooks;
 // const checkAyoAgain = (fee && idcard) || (fee && uniform);
 // console.log(checkAyoAgain);
+// console.log(checkOR);
 
 
-//Unary Operators //Unary Operators //Unary Operators
-//Unary Operators //Unary Operators //Unary Operators
+// Unary Operators //Unary Operators //Unary Operators
+// Unary Operators //Unary Operators //Unary Operators
 
 // Increament ++
 // Decreament --
@@ -170,11 +171,88 @@
 // k--;
 // console.log(k);
 
-//Ternary Operators //Ternary Operators //Ternary Operators
-//Ternary Operators //Ternary Operators //Ternary Operators
+// Ternary Operators //Ternary Operators //Ternary Operators
+// Ternary Operators //Ternary Operators //Ternary Operators
 
-const age = 19;
+// const age = 19;
 
-const Age = age >= 18 && age < 100 ? "You can vote" : "You cannot vote";
+// const Age = age >= 18 && age < 100 ? "You can vote" : "You cannot vote";
 
-console.log(Age);
+// console.log(Age);
+
+
+
+
+
+// Conditional Statements //Conditional Statements 
+// Conditional Statements //Conditional Statements 
+
+// if statement
+// if else statement
+// if else if statement
+
+// let a = 20;
+// let b = 56;
+
+// if (a > b) {
+//     console.log("a is greater than b");
+// }
+
+
+// //if else condition
+// if (a > b) {
+//     console.log("a is greater than b");
+// }
+// else {
+//     console.log("b is greater than a");
+// }
+
+// let DBpass = "1234";
+// let password = "12345";
+// if (password === DBpass) {
+//     console.log("Welcome back, user!");
+// }
+// else {
+//     console.log("Incorrect password, please try again.");
+// }
+
+
+// prompt("Enter your age");
+// const myage = prompt("Enter your age");
+// console.log(myage);
+
+// alert (myAge);
+
+// const test =78;
+// console.log(`your lucky number is ${test}`);
+
+
+// let valueOne = prompt("Enter first number");
+// let valueTwo = prompt("Enter second number");
+// let ans = valueOne + valueTwo;
+// alert(ans);
+
+// let valueOne = parseInt(prompt("Enter first number"));
+// let valueTwo = parseInt(prompt("Enter second number"));
+// let ans = valueOne + valueTwo;
+// alert(ans);
+
+//a program that checks if a number is positive or negative
+
+// let number = parseInt(prompt("Enter a number"));
+// if (number > 0) {
+//     alert(`${number} is positive`);
+// }
+// else {
+//     alert(`${number} is negative`);
+// }
+
+//a program that checks if a number is even or odd
+
+let number = parseInt(prompt("Enter a number"));
+if (number % 2 === 0) {
+    alert(`${number} is an even number  `);
+}
+else {
+    alert(`${number} is an odd number`);
+}
