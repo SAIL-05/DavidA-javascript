@@ -492,20 +492,324 @@
 // The time of day is determined by the following conditions: 12am to 11am is morning, 12pm to 5pm is afternoon, and 6pm to 11:59pm is evening.
 // The time is in 24 hour format.
 
-let time = parseInt(prompt("Enter the time in 24 hour format"));
-if (time >= 0 && time < 12) {
-    alert(`Good morning`);
-}
-else if (time >= 12 && time < 17) {
-    alert(`Good afternoon`);
-}
-else if (time >= 17 && time < 24) {
-    alert(`Good evening`);
-}
-else if (isNaN(time)) {
-    alert(`This is not a number`);
-}
-else {
-    alert(`Invalid input`);
-}
+// let time = parseInt(prompt("Enter the time in 24 hour format"));
+// if (time >= 0 && time < 12) {
+//     alert(`Good morning`);
+// }
+// else if (time >= 12 && time < 17) {
+//     alert(`Good afternoon`);
+// }
+// else if (time >= 17 && time < 24) {
+//     alert(`Good evening`);
+// }
+// else if (isNaN(time)) {
+//     alert(`This is not a number`);
+// }
+// else {
+//     alert(`Invalid input`);
+// }
 
+
+//write a simple number guessing game. provide a secret number and a guess, based on those numbers give players clues if their guess is higher, lower or correct.
+
+
+
+
+
+//13/05/2025 //13/05/2025
+//13/05/2025 //13/05/2025
+
+
+//STRING METHODS
+
+// let mystr = "Hello, Javascript World";
+// let myname = "David Anjorin"
+// // console.log(mystr);
+// // console.log(mystr.toUpperCase()); //converst mystr to uppercase
+// // console.log(mystr.toLowerCase()); //converts mystr to lowercase
+// // console.log(mystr.charAt()); //gives the first character of mystr
+// // console.log(mystr.indexOf()); //returns the index of the first occurrence of a character in mystr
+// // console.log(mystr.includes("Hello")); // checks if mystr includes Hello
+// // console.log(mystr.slice(2, 8)); //returns the elements from index 2 to index 8
+// // console.log(mystr.trim()); //removes the spaces at the beginning and end of mystr
+// // console.log(mystr.replace("Hello", "Hi")); //replaces Hello with Hi in mystr
+// // console.log(mystr.split("o")); //splits mystr into an array of strings using o as the separator
+// // console.log(mystr.startsWith("Hello")); //checks if mystr starts with Hello
+// // console.log(mystr.endsWith("hi")); //checks if mystr ends with hi
+
+// console.log((myname + mystr));
+
+
+//NUMBER METHODS
+
+// let num = 42.678;
+// let strnum = "89.56";
+
+// console.log(num);
+// console.log(num.toString()); // 
+// console.log(num.toFixed(2)); //round the string to the second number after the full stop
+// console.log(parseInt(strnum));
+// console.log(parseFloat(strnum));
+// console.log(isNaN("trtr")); 
+
+
+
+// //MATH METHOD
+
+// console.log(Math.PI);
+// console.log(Math.round(41.673)); //rounds up to a whole number
+// console.log(Math.floor(42.9)) //rounds up to  a whole number and adds -1 or to the previous integer
+// console.log(Math.ceil(42.1)); //rounds up to a whole number and adds +1 or to the next integer
+// console.log(Math.max(12, 6, 7)); // gives the highest number out of out of the list of numbers
+// console.log(Math.min(34, 5, 7));
+// console.log(Math.pow(2, 3)); //retuns the value of 2 if raised the power of 3 which is 8
+// console.log(Math.sqrt(144)) //retuns the square root of the value
+// console.log(Math.random() * 1000)
+
+
+// //objects
+
+// let student = {
+//     name: "shade",
+//     age: 34,
+//     email: "shade@gmail.com"
+// };
+
+// console.log(student);
+// console.log(student.name);
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+
+
+//FUNCTIONS //FUNCTIONS //FUNCTIONS
+//FUNCTIONS //FUNCTIONS //FUNCTIONS
+
+//functions are important building blocks of JavaScript programs. They allow you to change code for reuse and organization. 
+
+// function myName(name) {
+//     console.log(name);
+// }
+
+// myName("David");
+// myName("Amaka");
+// myName("Tolu");
+
+// function addNum (a, b) {
+//     console.log (a + b);
+// }
+
+// addNum(3, 4);
+// addNum(5, 6);
+
+
+//15/05/2025 //15/05/2025
+//15/05/2025 //15/05/2025
+
+// //function cont.d
+
+// function greet(name, gender, score ){
+//     console.log(`Hello world ${name}, ${gender}, ${score}`);
+
+// }
+// greet('David', 'Male', 85)
+// greet('sam', 'Male', 85)
+
+
+// //function declaration
+
+// function add(a, b) {
+//     return a + b;
+// }
+// console.log(add(3, 4));
+// console.log(add(5, 6));
+
+// //function expression
+
+// let add2 = function (a, b) {
+//     return a + b;
+// }
+// console.log(add2(3, 4));
+// console.log(add2(5, 6));
+
+//create a function that takes a number from any user with prompt
+
+// function getNumber() {
+//     let number = parseInt(prompt("Enter a number"));
+//     return number;
+// }   
+// console.log(getNumber());
+
+// //create a function that subtracts two numbers
+
+// function subtract(num1, num2) {
+//     return num1 - num2;
+// }
+// console.log(subtract(5, 3));
+// console.log(subtract(10, 6));
+
+//create a function that takes input from a user and checks if the number is greater than 6
+
+// function checkNumber() {
+//     let number = parseInt(prompt("Enter a number"));
+//     if (number > 6) {
+//         alert(`${number} is greater than 6`);
+//     }
+//     else if (number < 6) {
+//         alert(`${number} is less than 6`);
+//     }
+//     else if (isNaN(number)) {
+//         alert(`This is not a number you retard`);
+//     }
+//     else {
+//         alert(`youre a fucking idiot`);
+//     }
+// }
+
+// console.log(checkNumber());
+
+//create a function that a user will enter their name and it will return the number of characters in the name
+
+// function getName() {
+//     let name1 = prompt("Enter your name");
+//     return name1.length;
+ 
+// }
+// console.log(`your name is ${getName()} letters long`);
+
+//create a function that takes 4 parameters and returns the highest number
+
+// let num1 = parseInt(prompt("Enter first number"));
+// let num2 = parseInt(prompt("Enter second number")); 
+// let num3 = parseInt(prompt("Enter third number"));
+// let num4 = parseInt(prompt("Enter fourth number")); 
+
+// function findMax(num1, num2, num3, num4) {
+//     return Math.max(num1, num2, num3, num4);
+// }
+
+// console.log(`The highest number is ${findMax(num1, num2, num3, num4)}`);
+
+// //write a funtion that takes a number and ckecks if the number is even or odd
+
+// let number = parseInt(prompt("Enter a number"));
+// function checkEvenOdd(number) {
+//     if (number % 2 === 0) {
+//         alert(`${number} is an even number`);
+//     }
+//     else if (number % 2 !== 0) {
+//         alert(`${number} is an odd number`);
+//     }
+//     else if (isNaN(number)) {
+//         alert(`This is not a number`);
+//     }
+//     else {
+//         alert(`Invalid input`);
+//     }
+// }
+// console.log(checkEvenOdd(number));
+
+// //you can also use arrow functions
+// let greetme =() => {
+
+// }
+
+// //create an arrow function that checks the length of the user input using prompt
+// let getName = () => {
+//     let name1 = prompt("Enter your name");
+//     return name1.length;
+// }
+// console.log(`your name is ${getName()} letters long`);
+
+
+
+
+
+
+
+//write an arrow function that divides two numbers
+
+// let divide = (num1, num2) => {
+//     return num1 / num2;
+// }
+// console.log(divide(10, 2));
+// console.log(divide(20, 5));
+// console.log(divide(30, 7));
+
+// //write a  function that checks if a number is even or odd
+
+// let number = parseInt(prompt("Enter a number"));
+// let checkEvenOdd = (number) => {
+//     if (number % 2 === 0) {
+//         alert(`${number} is an even number`);
+//     } 
+//     else if (isNaN (number)) {
+//         alert(`This is not a number you retard`);
+//     } 
+//     else if (number % 2 !== 0) {
+//         alert(`${number} is an odd number`);
+//     }
+   
+//     else {
+//         alert(`I hope you get molested in your sleep`);
+//     }
+// }
+// console.log(checkEvenOdd(number));
+
+//write a function that returns the largest of three numbers
+
+// let largest = (num1, num2, num3) =>  {
+//     return Math.max(num1, num2, num3);
+// }
+// console.log(largest(3, 5, 7));
+// console.log(largest(10, 20, 30));
+ 
+//write a function that reverses a string
+
+// let str = prompt("Enter a number"); 
+// let reverseString = (str) => {
+//     return str.split("").reverse().join("");
+// } 
+// console.log(reverseString(str));
+
+//write a function that returns the longest word in a sentence
+
+// let sentence = prompt("Enter a sentence");
+// let longestWord = (sentence) => {
+//     return sentence.split(" ").reduce((a, b) => a.length > b.length ? a : b);
+// }
+// console.log(longestWord(sentence));
+
+
+//20/05/2025
+//20/05/2025
+
+//LOOP //LOOP //LOOP
+//LOOP //LOOP //LOOP
+
+//loops are used to execute a block of code repeatedly until a specified condition is met.
+
+//FOR LOOP
+//for loop is used to execute a block of code a specified number of times
+//for (initialization; condition; increment/decrement) { code to be executed}
+
+// for (let i = 0; i < 10; i++) {
+//     console.log('This is the value of i', i);
+// } 
+// //this will print the value of i from 0 to 9
+
+// for (let start = 1; start < 50; start++) {
+//    if(start % 2 === 0) {
+//        console.log(start, "is  an even number");
+//    }
+//     else {
+//          console.log(start, "is an odd number");
+//     }
+// }
+
+// for(let start = 5; start <= 20 ; start++){
+//   console.log('This is the value of i',start);
+// }
+// let score = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// for(  ){
+
+// }
